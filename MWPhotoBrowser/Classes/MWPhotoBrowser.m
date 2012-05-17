@@ -983,6 +983,11 @@ navigationBarBackgroundImageLandscapePhone = _navigationBarBackgroundImageLandsc
     }
 }
 
+- (id<MWPhoto>)photoAtCurrentIndex
+{
+    return [self photoAtIndex:_currentPageIndex];
+}
+
 #pragma mark - Misc
 
 - (void)doneButtonPressed:(id)sender {

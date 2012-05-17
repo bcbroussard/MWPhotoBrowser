@@ -44,6 +44,7 @@
 // Set page that photo browser starts on
 - (void)setInitialPageIndex:(NSUInteger)index;
 
+- (id<MWPhoto>)photoAtCurrentIndex;
 @end
 
 
